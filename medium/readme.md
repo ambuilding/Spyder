@@ -5,9 +5,10 @@
   - active
   - writes responses that are generally apreciated by the Medium community.
 
-- Look through the latest posts from users I follow to see
-  - who has responded to those users.
-- If they responded to someone I'm following, they must have similar interests to mine.
+- Look through the latest posts from the users who I follow to see
+  - who has responded to my followings.
+  - If they responded to someone I'm following, maybe we have common interests.
+  - Filter by the number of recommendations
 
 
 - API endpoint
@@ -52,7 +53,7 @@
 - Filter the responses
   - Filter out responses that are older than 30 days
   - Filter out responses that have less than a minimum number of recommendations
-  - by the number of recommendatins
+  - by the number of recommendations
   - It measures the same thing as claps, but it doesn't take duplicates into account.
 
 	response = / payload / value /
