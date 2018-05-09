@@ -43,6 +43,7 @@
 
 	get all the responses from each post
 	https://medium.com/_/api/posts/<post_id>/responses
+    ```
 
 - Get the latest posts of each user
   - https://medium.com/@<username>/latest?format=json
@@ -66,5 +67,8 @@
 	https://medium.com/_/api/posts/81f48b52875c/responses?filter=best
 
 - Instruction
+
+    ```
     python medium.py --help
     python medium.py --name <username> --min-recommendations 1
+    ```
